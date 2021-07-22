@@ -37,6 +37,7 @@ The build folder include all bitbake generated workspace of https://pkg.go.dev/g
 | https://pkg.go.dev/golang.org/x/tools/go/loader | v0.1.5 |
 | https://pkg.go.dev/golang.org/x/tools/go/ssa | v0.1.5 |
 | https://pkg.go.dev/golang.org/x/xerrors | v0.0.0-20200804184101-5ec99f83aff1 |
+| Yocto | dunfell |
 
 ## Issue
 
