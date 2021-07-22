@@ -46,6 +46,7 @@ But I can always explain if you want to know how.
 
 When running `bitbake github.com-pion-dtls-v2`, there is an compiling error.
 The **error log** is [log.do_compile](./build/github.com-pion-dtls-v2/2.0.9-r0/temp/log.do_compile.1112306)
+The compiling script is [run.do_compile](./build/github.com-pion-dtls-v2/2.0.9-r0/temp/run.do_compile.1112306)
 
 This is a part of work derived from my work at [Wittra](wittra.se).
 But the Yocto codes are free.
