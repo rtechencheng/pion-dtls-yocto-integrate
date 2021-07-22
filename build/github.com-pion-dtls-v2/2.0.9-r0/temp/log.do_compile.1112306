@@ -1,0 +1,279 @@
+DEBUG: Executing python function remove_testdirs
+DEBUG: Python function remove_testdirs finished
+DEBUG: Executing python function create_pseudo_mod
+DEBUG: Python function create_pseudo_mod finished
+DEBUG: Executing shell function do_compile
+internal/cpu
+runtime/internal/sys
+internal/race
+runtime/internal/atomic
+sync/atomic
+runtime/internal/math
+internal/bytealg
+unicode
+unicode/utf8
+math/bits
+crypto/internal/subtle
+math
+crypto/subtle
+internal/testlog
+runtime
+unicode/utf16
+container/list
+vendor/golang.org/x/crypto/cryptobyte/asn1
+internal/nettrace
+vendor/golang.org/x/crypto/internal/subtle
+runtime/cgo
+encoding
+github.com/pion/dtls/v2/pkg/crypto/clientcertificate
+github.com/pion/dtls/v2/pkg/crypto/signature
+github.com/pion/dtls/v2/e2e
+internal/reflectlite
+sync
+internal/singleflight
+math/rand
+errors
+sort
+internal/oserror
+io
+strconv
+syscall
+vendor/golang.org/x/net/dns/dnsmessage
+bytes
+hash
+crypto
+reflect
+strings
+crypto/internal/randutil
+bufio
+crypto/hmac
+crypto/rc4
+time
+internal/syscall/unix
+internal/syscall/execenv
+vendor/golang.org/x/crypto/hkdf
+context
+internal/poll
+github.com/pion/dtls/v2/internal/closer
+os
+internal/fmtsort
+encoding/binary
+crypto/sha512
+crypto/cipher
+crypto/ed25519/internal/edwards25519
+fmt
+crypto/sha256
+crypto/md5
+crypto/sha1
+crypto/aes
+crypto/des
+encoding/base64
+encoding/pem
+path/filepath
+net
+vendor/golang.org/x/crypto/chacha20
+io/ioutil
+vendor/golang.org/x/crypto/poly1305
+math/big
+encoding/hex
+net/url
+vendor/golang.org/x/crypto/chacha20poly1305
+vendor/golang.org/x/crypto/curve25519
+encoding/gob
+github.com/pion/dtls/v2/internal/util
+github.com/pion/dtls/v2/pkg/crypto/ccm
+golang.org/x/crypto/curve25519/internal/field
+github.com/pion/dtls/v2/pkg/crypto/hash
+log
+encoding/asn1
+crypto/elliptic
+crypto/rand
+crypto/ed25519
+crypto/rsa
+crypto/dsa
+crypto/x509/pkix
+vendor/golang.org/x/crypto/cryptobyte
+crypto/ecdsa
+github.com/pion/dtls/v2/pkg/crypto/elliptic
+golang.org/x/crypto/cryptobyte
+github.com/pion/transport/connctx
+github.com/pion/dtls/v2/pkg/protocol
+github.com/pion/udp
+crypto/x509
+github.com/pion/dtls/v2/internal/net/dpipe
+github.com/pion/dtls/v2/pkg/crypto/prf
+github.com/pion/dtls/v2/pkg/protocol/alert
+github.com/pion/dtls/v2/pkg/crypto/fingerprint
+crypto/tls
+github.com/pion/dtls/v2/pkg/crypto/signaturehash
+github.com/pion/dtls/v2/examples/util
+github.com/pion/dtls/v2/pkg/crypto/selfsign
+github.com/pion/dtls/v2/pkg/protocol/extension
+github.com/pion/dtls/v2/pkg/protocol/handshake
+github.com/pion/dtls/v2/pkg/protocol/recordlayer
+github.com/pion/dtls/v2/pkg/crypto/ciphersuite
+github.com/pion/dtls/v2/internal/ciphersuite
+github.com/pion/dtls/v2
+github.com/pion/dtls/v2/examples/dial/psk
+github.com/pion/dtls/v2/examples/listen/psk
+github.com/pion/dtls/v2/examples/dial/verify
+github.com/pion/dtls/v2/examples/dial/selfsign
+# github.com/pion/dtls/v2/examples/dial/psk
+cannot find package golang.org/x/crypto/cryptobyte/asn1 (using -importcfg)
+/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/lib/aarch64-wittra-linux/go/pkg/tool/linux_amd64/link: cannot open file : open : no such file or directory
+github.com/pion/dtls/v2/examples/listen/selfsign
+# github.com/pion/dtls/v2/examples/dial/selfsign
+cannot find package golang.org/x/crypto/cryptobyte/asn1 (using -importcfg)
+/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/lib/aarch64-wittra-linux/go/pkg/tool/linux_amd64/link: cannot open file : open : no such file or directory
+github.com/pion/dtls/v2/examples/listen/verify
+# github.com/pion/dtls/v2/examples/dial/verify
+cannot find package golang.org/x/crypto/cryptobyte/asn1 (using -importcfg)
+/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/lib/aarch64-wittra-linux/go/pkg/tool/linux_amd64/link: cannot open file : open : no such file or directory
+# github.com/pion/dtls/v2/examples/listen/psk
+cannot find package golang.org/x/crypto/cryptobyte/asn1 (using -importcfg)
+/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/lib/aarch64-wittra-linux/go/pkg/tool/linux_amd64/link: cannot open file : open : no such file or directory
+# github.com/pion/dtls/v2/examples/listen/selfsign
+cannot find package golang.org/x/crypto/cryptobyte/asn1 (using -importcfg)
+/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/lib/aarch64-wittra-linux/go/pkg/tool/linux_amd64/link: cannot open file : open : no such file or directory
+# github.com/pion/dtls/v2/examples/listen/verify
+cannot find package golang.org/x/crypto/cryptobyte/asn1 (using -importcfg)
+/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/lib/aarch64-wittra-linux/go/pkg/tool/linux_amd64/link: cannot open file : open : no such file or directory
+WARNING: exit code 2 from a shell command.
+ERROR: Execution of '/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/temp/run.do_compile.1112306' failed with exit code 2:
+internal/cpu
+runtime/internal/sys
+internal/race
+runtime/internal/atomic
+sync/atomic
+runtime/internal/math
+internal/bytealg
+unicode
+unicode/utf8
+math/bits
+crypto/internal/subtle
+math
+crypto/subtle
+internal/testlog
+runtime
+unicode/utf16
+container/list
+vendor/golang.org/x/crypto/cryptobyte/asn1
+internal/nettrace
+vendor/golang.org/x/crypto/internal/subtle
+runtime/cgo
+encoding
+github.com/pion/dtls/v2/pkg/crypto/clientcertificate
+github.com/pion/dtls/v2/pkg/crypto/signature
+github.com/pion/dtls/v2/e2e
+internal/reflectlite
+sync
+internal/singleflight
+math/rand
+errors
+sort
+internal/oserror
+io
+strconv
+syscall
+vendor/golang.org/x/net/dns/dnsmessage
+bytes
+hash
+crypto
+reflect
+strings
+crypto/internal/randutil
+bufio
+crypto/hmac
+crypto/rc4
+time
+internal/syscall/unix
+internal/syscall/execenv
+vendor/golang.org/x/crypto/hkdf
+context
+internal/poll
+github.com/pion/dtls/v2/internal/closer
+os
+internal/fmtsort
+encoding/binary
+crypto/sha512
+crypto/cipher
+crypto/ed25519/internal/edwards25519
+fmt
+crypto/sha256
+crypto/md5
+crypto/sha1
+crypto/aes
+crypto/des
+encoding/base64
+encoding/pem
+path/filepath
+net
+vendor/golang.org/x/crypto/chacha20
+io/ioutil
+vendor/golang.org/x/crypto/poly1305
+math/big
+encoding/hex
+net/url
+vendor/golang.org/x/crypto/chacha20poly1305
+vendor/golang.org/x/crypto/curve25519
+encoding/gob
+github.com/pion/dtls/v2/internal/util
+github.com/pion/dtls/v2/pkg/crypto/ccm
+golang.org/x/crypto/curve25519/internal/field
+github.com/pion/dtls/v2/pkg/crypto/hash
+log
+encoding/asn1
+crypto/elliptic
+crypto/rand
+crypto/ed25519
+crypto/rsa
+crypto/dsa
+crypto/x509/pkix
+vendor/golang.org/x/crypto/cryptobyte
+crypto/ecdsa
+github.com/pion/dtls/v2/pkg/crypto/elliptic
+golang.org/x/crypto/cryptobyte
+github.com/pion/transport/connctx
+github.com/pion/dtls/v2/pkg/protocol
+github.com/pion/udp
+crypto/x509
+github.com/pion/dtls/v2/internal/net/dpipe
+github.com/pion/dtls/v2/pkg/crypto/prf
+github.com/pion/dtls/v2/pkg/protocol/alert
+github.com/pion/dtls/v2/pkg/crypto/fingerprint
+crypto/tls
+github.com/pion/dtls/v2/pkg/crypto/signaturehash
+github.com/pion/dtls/v2/examples/util
+github.com/pion/dtls/v2/pkg/crypto/selfsign
+github.com/pion/dtls/v2/pkg/protocol/extension
+github.com/pion/dtls/v2/pkg/protocol/handshake
+github.com/pion/dtls/v2/pkg/protocol/recordlayer
+github.com/pion/dtls/v2/pkg/crypto/ciphersuite
+github.com/pion/dtls/v2/internal/ciphersuite
+github.com/pion/dtls/v2
+github.com/pion/dtls/v2/examples/dial/psk
+github.com/pion/dtls/v2/examples/listen/psk
+github.com/pion/dtls/v2/examples/dial/verify
+github.com/pion/dtls/v2/examples/dial/selfsign
+# github.com/pion/dtls/v2/examples/dial/psk
+cannot find package golang.org/x/crypto/cryptobyte/asn1 (using -importcfg)
+/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/lib/aarch64-wittra-linux/go/pkg/tool/linux_amd64/link: cannot open file : open : no such file or directory
+github.com/pion/dtls/v2/examples/listen/selfsign
+# github.com/pion/dtls/v2/examples/dial/selfsign
+cannot find package golang.org/x/crypto/cryptobyte/asn1 (using -importcfg)
+/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/lib/aarch64-wittra-linux/go/pkg/tool/linux_amd64/link: cannot open file : open : no such file or directory
+github.com/pion/dtls/v2/examples/listen/verify
+# github.com/pion/dtls/v2/examples/dial/verify
+cannot find package golang.org/x/crypto/cryptobyte/asn1 (using -importcfg)
+/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/lib/aarch64-wittra-linux/go/pkg/tool/linux_amd64/link: cannot open file : open : no such file or directory
+# github.com/pion/dtls/v2/examples/listen/psk
+cannot find package golang.org/x/crypto/cryptobyte/asn1 (using -importcfg)
+/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/lib/aarch64-wittra-linux/go/pkg/tool/linux_amd64/link: cannot open file : open : no such file or directory
+# github.com/pion/dtls/v2/examples/listen/selfsign
+cannot find package golang.org/x/crypto/cryptobyte/asn1 (using -importcfg)
+/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/lib/aarch64-wittra-linux/go/pkg/tool/linux_amd64/link: cannot open file : open : no such file or directory
+# github.com/pion/dtls/v2/examples/listen/verify
+cannot find package golang.org/x/crypto/cryptobyte/asn1 (using -importcfg)
+/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/lib/aarch64-wittra-linux/go/pkg/tool/linux_amd64/link: cannot open file : open : no such file or directory
+WARNING: exit code 2 from a shell command.
+

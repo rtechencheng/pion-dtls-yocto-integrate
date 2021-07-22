@@ -1,0 +1,16 @@
+def remove_testdirs(d):
+    import os
+    import shutil
+
+    # optionally remove a few directories
+    for _dir in (d.getVar("GOSRC_REMOVEDIRS") or "").split(" "):
+        if not _dir:
+            continue
+        _path = os.path.join(d.getVar("WORKDIR"), "src", _dir)
+        if os.path.isdir(_path):
+            shutil.rmtree(_path, ignore_errors=True)
+        elif os.path.isfile(_path):
+            os.remove(_path)
+
+remove_testdirs(d)
+

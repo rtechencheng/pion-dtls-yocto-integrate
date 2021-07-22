@@ -1,0 +1,11 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/openembedded-core/meta/recipes-extended/unzip/unzip_6.0.bb:do_populate_sysroot', 'virtual:native:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/openembedded-core/meta/recipes-devtools/patch/patch_2.7.6.bb:do_populate_sysroot', '/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/openembedded-core/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: ['unzip-native', 'patch-native', 'quilt-native', 'automake-native', 'libtool-native', 'gnu-config-native', 'autoconf-native', 'attr-native', 'texinfo-dummy-native', 'm4-native', 'gettext-minimal-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished
+DEBUG: Executing python function do_qa_patch
+DEBUG: Python function do_qa_patch finished

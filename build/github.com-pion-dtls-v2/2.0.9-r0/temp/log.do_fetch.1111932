@@ -1,0 +1,26 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are []
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: []
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Trying PREMIRRORS
+DEBUG: Trying Upstream
+DEBUG: Fetching https://proxy.golang.org/github.com/pion/dtls/v2/@v/v2.0.9.zip;srcoutput=github.com/pion/dtls/v2;srcinput=github.com/pion/dtls/v2@v2.0.9;downloadfilename=github.com-pion-dtls-v2-v2.0.9.zip;name=github.com-pion-dtls-v2 using command '/usr/bin/env wget -t 2 -T 30 --passive-ftp --no-check-certificate -O /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/downloads/github.com-pion-dtls-v2-v2.0.9.zip -P /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/downloads 'https://proxy.golang.org/github.com/pion/dtls/v2/@v/v2.0.9.zip''
+DEBUG: Fetcher accessed the network with the command /usr/bin/env wget -t 2 -T 30 --passive-ftp --no-check-certificate -O /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/downloads/github.com-pion-dtls-v2-v2.0.9.zip -P /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/downloads 'https://proxy.golang.org/github.com/pion/dtls/v2/@v/v2.0.9.zip'
+DEBUG: Running export PSEUDO_DISABLED=1; export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus"; export SSH_AGENT_PID="2451"; export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export PATH="/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/openembedded-core/scripts:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/bin/aarch64-wittra-linux:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot/usr/bin/crossscripts:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/sbin:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/usr/bin:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/sbin:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/bin:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/bitbake/bin:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/hosttools"; export HOME="/home/chencheng"; /usr/bin/env wget -t 2 -T 30 --passive-ftp --no-check-certificate -O /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/downloads/github.com-pion-dtls-v2-v2.0.9.zip -P /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/downloads 'https://proxy.golang.org/github.com/pion/dtls/v2/@v/v2.0.9.zip' --progress=dot -v
+--2021-07-21 17:41:01--  https://proxy.golang.org/github.com/pion/dtls/v2/@v/v2.0.9.zip
+Resolving proxy.golang.org (proxy.golang.org)... 172.217.21.177, 2a00:1450:400f:80a::2011
+Connecting to proxy.golang.org (proxy.golang.org)|172.217.21.177|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 259649 (254K) [application/zip]
+Saving to: ‘/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/downloads/github.com-pion-dtls-v2-v2.0.9.zip’
+
+
+2021-07-21 17:41:01 (25.4 MB/s) - ‘/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/downloads/github.com-pion-dtls-v2-v2.0.9.zip’ saved [259649/259649]
+
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished
+DEBUG: Executing python function write_srcrev
+DEBUG: Python function write_srcrev finished

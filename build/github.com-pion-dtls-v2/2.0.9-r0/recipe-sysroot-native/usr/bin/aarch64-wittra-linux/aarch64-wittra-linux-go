@@ -1,0 +1,8 @@
+#!/bin/bash
+here=`dirname $0`
+export GOARCH="arm64"
+export GOOS="linux"
+export GOARM="${GOARM:-}"
+export GO386="${GO386:-}"
+export GOMIPS="${GOMIPS:-}"
+$here/../../lib/aarch64-wittra-linux/go/bin/go "$@"

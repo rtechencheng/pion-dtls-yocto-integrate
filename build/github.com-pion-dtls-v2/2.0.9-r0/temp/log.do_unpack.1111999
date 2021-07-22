@@ -1,0 +1,13 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/openembedded-core/meta/recipes-extended/unzip/unzip_6.0.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['unzip-native', 'quilt-native']
+NOTE: Skipping as already exists in sysroot: []
+DEBUG: sed -e 's:^[^/]*/:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native/:g' /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/sysroots-components/x86_64/quilt-native/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIRTARGET:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot:g; s:FIXMESTAGINGDIRHOST:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/recipe-sysroot-native:g' -e 's:FIXME_PSEUDO_SYSROOT:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/sysroots-components/x86_64/pseudo-native:g' -e 's:FIXME_HOSTTOOLS_DIR:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/hosttools:g' -e 's:FIXME_PKGDATA_DIR:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/pkgdata/raspberrypi4-64:g' -e 's:FIXME_PSEUDO_LOCALSTATEDIR:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/pseudo/:g' -e 's:FIXME_LOGFIFO:/home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/temp/fifo.1111999:g'
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function gosrc_do_unpack
+NOTE: Unpacking /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/downloads/github.com-pion-dtls-v2-v2.0.9.zip to /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/tmp-glibc/work/aarch64-wittra-linux/github.com-pion-dtls-v2/2.0.9-r0/sources/
+DEBUG: Python function gosrc_do_unpack finished
+DEBUG: Python function do_unpack finished
+DEBUG: Executing python function do_qa_unpack
+DEBUG: Python function do_qa_unpack finished

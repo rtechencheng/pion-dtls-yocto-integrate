@@ -1,0 +1,31 @@
+def gosrc_do_unpack(d):
+    import os
+    import shutil
+
+    src_uri = (d.getVar('SRC_URI') or "").split()
+    if not src_uri:
+        return
+
+    # create a mapping for the source moving part
+    # move all from an arbitrary sources-dir into
+    # the real S tree using the mapping
+
+    # ${WORKDIR}/sources/${name}@v${ver} -> ${S}/src/${name}
+    _mapping = {}
+
+    fetcher = bb.fetch2.Fetch(src_uri, d)
+    for url in fetcher.urls:
+        _srcinput = fetcher.ud[url].parm.get('srcinput')
+        _srcoutput = fetcher.ud[url].parm.get('srcoutput')
+        if _srcinput and _srcoutput:
+            _mapping[d.expand("${WORKDIR}/sources/" + _srcinput)] = \
+                d.expand("${S}/src/" + _srcoutput)
+    fetcher.unpack(d.expand('${WORKDIR}/sources'))
+
+    for k,v in _mapping.items():
+        os.makedirs(v, exist_ok=True)
+        for f in os.listdir(k):
+            shutil.move(os.path.join(k, f), os.path.join(v, f))
+
+gosrc_do_unpack(d)
+

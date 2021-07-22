@@ -1,0 +1,10 @@
+def create_pseudo_mod(d):
+    import os
+    # create a pseudo go.mod in case none could be found
+    _path = d.expand("${WORKDIR}/src/${GO_IMPORT}/go.mod")
+    if not os.path.exists(_path):
+        with open(_path, "w") as o:
+            o.write("module {}\n".format(d.getVar("GO_IMPORT")))
+
+create_pseudo_mod(d)
+

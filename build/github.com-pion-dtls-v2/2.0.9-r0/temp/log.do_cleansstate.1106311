@@ -1,0 +1,8 @@
+DEBUG: Executing python function do_cleansstate
+NOTE: Removing /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/sstate-cache/*/*/sstate:github.com-pion-dtls-v2:aarch64-wittra-linux:2.0.9:r0:aarch64:3:*_package.tgz*
+NOTE: Removing /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/sstate-cache/*/*/sstate:github.com-pion-dtls-v2:aarch64-wittra-linux:2.0.9:r0:aarch64:3:*_package_qa.tgz*
+NOTE: Removing /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/sstate-cache/*/*/sstate:github.com-pion-dtls-v2:aarch64-wittra-linux:2.0.9:r0:aarch64:3:*_package_write_ipk.tgz*
+NOTE: Removing /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/sstate-cache/*/*/sstate:github.com-pion-dtls-v2:aarch64-wittra-linux:2.0.9:r0:aarch64:3:*_packagedata.tgz*
+NOTE: Removing /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/sstate-cache/*/*/sstate:github.com-pion-dtls-v2::2.0.9:r0::3:*_populate_lic.tgz*
+NOTE: Removing /home/chencheng/workspace/wittra/repos/wittra-gateway/yocto/build/sstate-cache/*/*/sstate:github.com-pion-dtls-v2:aarch64-wittra-linux:2.0.9:r0:aarch64:3:*_populate_sysroot.tgz*
+DEBUG: Python function do_cleansstate finished
