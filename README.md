@@ -50,4 +50,6 @@ The **error log** is [log.do_compile](./build/github.com-pion-dtls-v2/2.0.9-r0/t
 This is a part of work derived from my work at [Wittra](wittra.se).
 But the Yocto codes are free.
 
+A ticket is opened here: https://github.com/pion/dtls/issues/385
+
 Please help! Thanks!
